@@ -1,6 +1,6 @@
 
 " Vim syntax file
-" Language: cards of IPSL model (lmdz and inca)
+" Language: cards of IPSL model (lmdz,  inca,  config, run)
 " Maintainer: Ramiro Checa-Garcia
 " Latest Revision: 03 September 2019
 
