@@ -9,7 +9,7 @@
 
 ## Changes
  
- - **03-09-2019** First version v1.0
+ - **03-09-2019** First commit -> basic syntax highlight to better visualize files.
 
 ## How to use
 
