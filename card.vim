@@ -1,7 +1,7 @@
 
 " Vim syntax file
 " Language: cards of IPSL model (lmdz and inca)
-" Maintainer: Ramiro Checa-Garcia (rchg on github)
+" Maintainer: Ramiro Checa-Garcia
 " Latest Revision: 03 September 2019
 
 if exists("b:current_syntax")
@@ -11,6 +11,7 @@ endif
 syn keyword sections InitialStateFiles BoundaryFiles ParametersFiles Configuration PostProcessing
 syn keyword sections OutputText Compatibility UserChoices RestartFiles OutputFiles
 syn keyword sections Restarts ATM ListOfComponents SRF CHM OCE ICE MBG SBG CPL IOS Executable Post
+
 
 syn keyword postproc Post_1D_inca_aero Post_1D_inca_species Post_1D_inca_emi 
 
@@ -38,6 +39,7 @@ syn region listblock start="(" end=")"
 syn match   cardComment   "#.*$" display contains=cardTodo,@Spell
 syn match   listelement   "(*,*)" display contains=cardTodo,@Spell
 
+
 highlight default link sections Function
 highlight default link variable Keyword
 highlight default link cardComment Comment
@@ -45,5 +47,7 @@ highlight default link listelement Number
 highlight default link postproc  Float
 highlight default link cardvalues  Boolean
 highlight listblock gui=italic
+
+
 
 
